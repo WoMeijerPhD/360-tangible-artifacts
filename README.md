@@ -15,9 +15,9 @@ The core of a tangible 360° video artifact is a physical object that represents
 read the research paper here (todo: add link to research paper)
 
 ## Features:
-[] Provide guidelines for selecting a type of artifact
-[] Create a flat artifact
-[X] Create a sphere-ish artifact
-[X] Download the artifact as a PDF
-[] Provide a bunch of different artifacts
-[] Support the creation of a bunch of different conventions
+- [] Provide guidelines for selecting a type of artifact
+- [] Create a flat artifact
+- [X] Create a sphere-ish artifact
+- [X] Download the artifact as a PDF
+- [] Provide a bunch of different artifacts
+- [] Support the creation of a bunch of different conventions
