@@ -1,38 +1,23 @@
-# create-svelte
+# Tangible 360° Video Artifact Toolkit
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This is the code for a website that helps create designers (and everyone else) create `tangible 360° video artifacts`. In order to share and collaborate on 360° video projects, we need a way to create tangible artifacts that represent the 360° video experience.
 
-## Creating a project
+## What is a tangible 360° video artifact?
 
-If you're seeing this, you've probably already done this step. Congrats!
+The core of a tangible 360° video artifact is a physical object that represents a single frame from 360° video, in this case we have two types of tangible artifacts:
+1. flat artifacts: a 2D representation of a frame of 360° video, with a specific focus and a minimap for overview.
+![A flat artifact](./static/examples/flat.png)
+2. sphere-ish artifacts: a 3D representation of a frame of 360° video using a cut and fold pattern of a sphere-ish object.
+![A sphere-ish artifact](./static/examples/isohedron.png)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### I want to know more
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+read the research paper here (todo: add link to research paper)
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Features:
+[] Provide guidelines for selecting a type of artifact
+[] Create a flat artifact
+[X] Create a sphere-ish artifact
+[X] Download the artifact as a PDF
+[] Provide a bunch of different artifacts
+[] Support the creation of a bunch of different conventions
