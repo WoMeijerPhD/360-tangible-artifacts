@@ -239,8 +239,8 @@
 </style>
 
 <div class="container">
-
-        <h1>Equarec2Net</h1>
+        <a href="/">return to main page</a>
+        <h1>Sphere-ish 360° Video Artifacts</h1>
 
         <p>Convert equirectangular images to a net that you can cut, fold, and make into a little physical thing!</p>
 </div>
