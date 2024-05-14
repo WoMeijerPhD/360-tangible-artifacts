@@ -7,9 +7,9 @@ This is the code for a website that helps create designers (and everyone else) c
 The core of a tangible 360° video artifact is a physical object that represents a single frame from 360° video, in this case we have two types of tangible artifacts:
 
 1. flat artifacts: a 2D representation of a frame of 360° video, with a specific focus and a minimap for overview.
-![A flat artifact](https://360artifact.com/examples/flat.png)
+![A flat artifact](https://360artifact.com/examples/flat.png | width=200)
 2. sphere-ish artifacts: a 3D representation of a frame of 360° video using a cut and fold pattern of a sphere-ish object.
-![A sphere-ish artifact](https://360artifact.com/examples/isohedron.png)
+![A sphere-ish artifact](https://360artifact.com/examples/isohedron.png | width=200)
 
 ### I want to know more
 
