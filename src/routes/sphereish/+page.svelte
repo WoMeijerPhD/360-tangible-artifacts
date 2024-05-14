@@ -13,6 +13,7 @@
 
     // @ts-ignore
     let outputImageData;
+    let outputImgTag;
     const referenceImage = new Image();
     referenceImage.src = '/poly/cube.png';
     let outputCanvas;
@@ -99,7 +100,7 @@
     // @ts-ignore
     const setOutputImage = () => {
         // Your existing setOutputImage function logic here
-        const outputImgTag = document.getElementById('outputImage');
+        // const outputImgTag = document.getElementById('outputImage');
 
         const svgDoc = outputImgTag.contentDocument;
 
@@ -114,7 +115,22 @@
     };
 
     const printSVG = () => {
-        // Your existing printSVG function logic here
+        // const outputImgTag = document.getElementById('outputImage');
+          // print out the object element
+          const svgDoc = outputImgTag.contentDocument;
+            const svg = svgDoc.querySelector('svg');
+
+            // Create a new window
+            const printWindow = window.open('', '_blank');
+            printWindow.document.open();
+            printWindow.document.write('<html><head><title>Print</title>');
+            printWindow.document.write('<style>@media print { svg { width: 210mm; height: 297mm; } }</style>');
+            printWindow.document.write('</head><body>');
+            printWindow.document.write(svg.outerHTML);
+            printWindow.document.write('</body></html>');
+            printWindow.document.close();
+            printWindow.print()
+            
     };
 
     // @ts-ignore
@@ -126,7 +142,7 @@
         // @ts-ignore
         const outspinner = document.getElementById('outputSpinner');
         const inputImgTag = document.getElementById('inputImage');
-        const outputImgTag = document.getElementById('outputImage');
+        outputImgTag = document.getElementById('outputImage');
 
         // @ts-ignore
         textureUpload.addEventListener('change', (event) => {
@@ -186,6 +202,8 @@
             outputImgTag.data = '/poly/polygon.svg';
             // @ts-ignore
             referenceImage.src = '/poly/polygon.png';
+
+            //
         });
 
         // Add event listener to print button
