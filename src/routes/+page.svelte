@@ -1,5 +1,14 @@
-<div class="container">
+<script>
+    import { marked } from 'marked';
 
-    <h1>Welcome to the tangible 360° video artifact toolkit website</h1>
-    <p>soon there will be some cool tools to create tangible, sharable, artifacts here!</p>
+
+	export let data;
+
+    let html = marked(data.content || '#something has gone wrong...');
+
+
+</script>
+
+<div class="container">
+    {@html html}
 </div>
