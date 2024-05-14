@@ -25,12 +25,12 @@ read the research paper here (todo: add link to research paper)
 
 ## Features
 
-- [] Provide guidelines for selecting a type of artifact
-- [] Create a flat artifact
+- [ ] Provide guidelines for selecting a type of artifact
+- [ ] Create a flat artifact
 - [X] Create a sphere-ish artifact
 - [X] Download the artifact as a PDF
-- [] Provide a bunch of different artifacts
-- [] Support the creation of a bunch of different conventions
+- [ ] Provide a bunch of different artifacts
+- [ ] Support the creation of a bunch of different conventions
 
 ## Supporting Technologies
 
