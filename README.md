@@ -14,7 +14,7 @@ The core of a tangible 360° video artifact is a physical object that represents
   </tr>
   <tr>
     <td><img src="https://360artifact.com/examples/isohedron.png" alt="A sphere-ish artifact" width="200"></td>
-    <td>2. sphere-ish artifacts: a 3D representation of a frame of 360° video using a cut and fold pattern of a sphere-ish object.</td>
+    <td>2. [sphere-ish artifacts:](https://360artifact.com/sphereish) a 3D representation of a frame of 360° video using a cut and fold pattern of a sphere-ish object.</td>
   </tr>
 </tbody>
 </table>
