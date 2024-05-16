@@ -1,7 +1,7 @@
 // @ts-nocheck
 
 import * as d3 from 'd3-geo';
-import {aitoffRaw} from 'd3-geo-projection';
+// import {aitoffRaw} from 'd3-geo-projection';
 
 export function reprojectImage(inputCanvas, outputCanvas,projection) {
 
@@ -16,7 +16,7 @@ export function reprojectImage(inputCanvas, outputCanvas,projection) {
 
     let dx = width, dy = height;
 
-    projection = aitoffRaw();
+    projection = d3.geoAlbers();
     // reproject image
     for (var y = 0, i = -1; y < height; ++y) {
         for (var x = 0; x < width; ++x) {
