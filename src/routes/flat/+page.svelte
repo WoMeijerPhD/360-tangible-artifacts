@@ -182,6 +182,16 @@
 		resizeCanvas();
 	}
 
+	function resetBoundingBox(){
+		startX = 0;
+		startY = 0;
+		endX = 0;
+		endY = 0;
+		const ctx = overlay.getContext('2d');
+		ctx.clearRect(0, 0, overlay.width, overlay.height);
+		updateOuput();
+	}
+
 	
 	function updateOuput(){
 		// if the start,end postions are 0 just copy the whole image
@@ -245,6 +255,7 @@
             </div>
         </div>
         <input type="range" id="slider" min="0" max="1000" value="0" />
+		<button on:click={resetBoundingBox}>reset bounding box</button>
     </div>
 	<div>
 		<h2>output</h2>
