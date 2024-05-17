@@ -14,7 +14,7 @@ The core of a tangible 360° video artifact is a physical object that represents
   </tr>
   <tr>
     <td><img src="https://360artifact.com/examples/isohedron.png" alt="A sphere-ish artifact" width="200"></td>
-    <td>2. <a href="https://360artifact.com/sphereish">sphere-ish artifacts</a>: a 3D representation of a frame of 360° video using a cut and fold pattern of a sphere-ish object.</td>
+    <td>2. <a href="/sphereish">sphere-ish artifacts</a>: a 3D representation of a frame of 360° video using a cut and fold pattern of a sphere-ish object.</td>
   </tr>
 </tbody>
 </table>
@@ -25,11 +25,12 @@ read the research paper here (todo: add link to research paper)
 
 ## Features
 
+- [ ] Based on on-going research (will not be checked off for a while)
 - [ ] Provide guidelines for selecting a type of artifact
-- [ ] Create a flat artifact
-- [X] Create a sphere-ish artifact
-- [X] Download the artifact as a PDF
-- [ ] Provide a bunch of different artifacts
+- [ ] Tool to create a flat artifact
+- [X] Tool to create a sphere-ish artifact
+- [ ] Provide example artifacts
+- [ ] Document the concept of conventions for tangible artifacts
 - [ ] Support the creation of a bunch of different conventions
 
 ## Supporting Technologies
