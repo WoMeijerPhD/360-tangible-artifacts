@@ -10,7 +10,7 @@ The core of a tangible 360° video artifact is a physical object that represents
 <tbody>
   <tr>
     <td><img src="https://360artifact.com/examples/flat.png" alt="A flat artifact" width="200"></td>
-    <td>1. flat artifacts: a 2D representation of a frame of 360° video, with a specific focus and a minimap for overview.</td>
+    <td>1. <a href="/flat">flat artifacts</a>: a 2D representation of a frame of 360° video, with a specific focus and a minimap for overview.</td>
   </tr>
   <tr>
     <td><img src="https://360artifact.com/examples/isohedron.png" alt="A sphere-ish artifact" width="200"></td>
