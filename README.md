@@ -1,5 +1,5 @@
-# Tangible 360° Video Artifact Toolkit
-
+# Tangi!
+## A tool for creating tangible 360° video artifacts
 This is the code for a website that helps create designers (and everyone else) create `tangible 360° video artifacts`. In order to share and collaborate on 360° video projects, we need a way to create tangible artifacts that represent the 360° video experience.
 
 ## What is a tangible 360° video artifact?
@@ -21,18 +21,24 @@ The core of a tangible 360° video artifact is a physical object that represents
 
 ### I want to know more
 
-read the research paper here (todo: add link to research paper)
+I, [Wo Meijer](https://womeijer.com), wrote a paper where I gave Tangi and the artifacts that it makes to designers with 360° video experinece. They did cool things!
+
+Read the pre-print: [Tangi: a Tool to Create Tangible Artifacts for Sharing Insights from 360](https://arxiv.org/abs/2411.10192)
+
+Reading this before [TEI 2025](https://tei.acm.org/2025/)? I will be presenting this paper there
 
 ## Features
 
-- [ ] Based on on-going research (will not be checked off for a while)
+- [X] Formed the basis of a research paper!
 - [ ] Provide guidelines for selecting a type of artifact
-- [ ] Tool to create a flat artifact
+- [ ] Tool to create a flat artifact (currently broken
 - [X] Tool to create a sphere-ish artifact
 - [ ] Provide example artifacts
-- [ ] Document the concept of conventions for tangible artifacts
 - [ ] Support the creation of a bunch of different conventions
 
 ## Supporting Technologies
 
 - [Barebones](https://github.com/acahir/Barebones)
+
+## Creator
+This is a project by [Wo Meijer](https://womeijer.com) as part of his PhD at the TU Delft.
